@@ -1,3 +1,5 @@
 public class HelloWorld{
-    public static void ma
+    public static void main(String[] args){
+        Sy
+    }
 }
