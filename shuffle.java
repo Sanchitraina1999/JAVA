@@ -4,6 +4,10 @@ class shuffle{
         if(x>2){
             System.out.print("a");
         }
-        whie
+        while(x>0){
+            x=x-1;
+            System.out.print("-");
+            if(x==2)
+        }
     }
 }
