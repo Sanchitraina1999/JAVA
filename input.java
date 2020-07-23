@@ -5,6 +5,6 @@ public class input{
         Scanner inpd = new Scanner(System.in);
         System.out.println("Enter the val of a:");
         int a=inpd.nextInt();
-        System.out.println("Val of a:" + a);
+        System.out.println("Val of a: " + a);
     }
 }
