@@ -6,7 +6,7 @@ class array{
             ar[i]=i+1;
         for(int i=0;i<10;i++)
             System.out.print(ar[i]+" ");
-        System.out.println();
-        sum();
+        System.out.println(sum(ar,10));
     }
+    public s
 }
