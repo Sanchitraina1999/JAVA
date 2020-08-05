@@ -8,5 +8,7 @@ class array{
             System.out.print(ar[i]+" ");
         System.out.println(sum(ar,10));
     }
-    public s
+    public static int sum(int ar[],int n){
+        
+    }
 }
