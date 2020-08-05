@@ -5,10 +5,7 @@ class array{
         for(int i=0;i<10;i++)
             ar[i]=i+1;
         for(int i=0;i<10;i++)
-            System.out.print(ar[i]+" ");
-        System.out.println(returnElement(ar,9));
-    }
-    static int returnElement(int ar[],int n){
-        return ar[n];
+            System.out.print(ar[i]+"\n");
+        System.out.println(returnElement(ar,0));
     }
 }
