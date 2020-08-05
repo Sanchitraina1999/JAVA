@@ -1,4 +1,7 @@
 class array{
+    static int returnElement(int ar[],int n){
+        return ar[n];
+    }
     public static void main(String[] args){
         int ar[];
         ar=new int[10];
