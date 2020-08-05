@@ -6,9 +6,9 @@ class array{
             ar[i]=i+1;
         for(int i=0;i<10;i++)
             System.out.print(ar[i]+" ");
-        System.out.println(sum(ar,10));
+        System.out.println(returnElement(ar,10));
     }
-    static int sum(int ar[],int n){
-
+    static int returnElement(int ar[],int n){
+        return ar[e]
     }
 }
