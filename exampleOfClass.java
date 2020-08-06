@@ -1,3 +1,5 @@
 public class exampleOfClass {
-    p
+    public static void main(String[] args){
+        c
+    }
 }
