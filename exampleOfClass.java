@@ -14,7 +14,7 @@ public class exampleOfClass {
         class MathSub{
             int num1,num2;
             public int add(){
-                return Math.abs(num1-num2);
+                return Math.fact(1);
             }
         }
         MathSub Sub = new MathSub();//creates instance of the class i.e. object
