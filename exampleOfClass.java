@@ -8,6 +8,7 @@ public class exampleOfClass {
         }
         MathAdd addition = new MathAdd();//creates instance of the class i.e. object
         addition.num1=10;
-        ad
+        addition.num2=20;
+        System.out.println(addition.add());
     }
 }
