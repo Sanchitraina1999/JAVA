@@ -1,4 +1,4 @@
-java.text.*
+import java.util.
 ;public class exampleOfClass {
     public static void main(String[] args){
         class MathAdd{
