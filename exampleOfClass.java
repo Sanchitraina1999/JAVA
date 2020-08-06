@@ -20,6 +20,6 @@ public class exampleOfClass {
         MathSub Sub = new MathSub();//creates instance of the class i.e. object
         Sub.num1=10;
         Sub.num2=20;
-        System.out.println(Sub.add());
+        System.out.println(Sub.sub());
     }
 }
