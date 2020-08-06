@@ -3,8 +3,9 @@ public class exampleOfClass {
         class MathAdd{
             int num1,num;
             public int add(){
-                retur
+                return num1 + num2;
             }
         }
+        MathAdd addition = new MathAdd();
     }
 }
