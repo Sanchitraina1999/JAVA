@@ -17,9 +17,9 @@ public class exampleOfClass {
                 return num1 + num2;
             }
         }
-        MathAdd Sub = new MathSub();//creates instance of the class i.e. object
+        MathSub Sub = new MathSub();//creates instance of the class i.e. object
         Sub.num1=10;
-        additSubion.num2=20;
-        System.out.println(addition.add());
+        Sub.num2=20;
+        System.out.println(Sub.add());
     }
 }
