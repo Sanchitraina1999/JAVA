@@ -10,5 +10,16 @@ public class exampleOfClass {
         addition.num1=10;
         addition.num2=20;
         System.out.println(addition.add());
+
+        class MathSub{
+            int num1,num2;
+            public int add(){
+                return num1 + num2;
+            }
+        }
+        MathAdd Sub = new MathSub();//creates instance of the class i.e. object
+        Sub.num1=10;
+        additSubion.num2=20;
+        System.out.println(addition.add());
     }
 }
