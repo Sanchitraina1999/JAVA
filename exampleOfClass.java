@@ -1,4 +1,5 @@
-public class exampleOfClass {
+java.text.*
+;public class exampleOfClass {
     public static void main(String[] args){
         class MathAdd{
             int num1,num2;
@@ -14,7 +15,7 @@ public class exampleOfClass {
         class MathSub{
             int num1,num2;
             public int add(){
-                return Math.fact(1);
+                return Math.abs(num1-num2);
             }
         }
         MathSub Sub = new MathSub();//creates instance of the class i.e. object
