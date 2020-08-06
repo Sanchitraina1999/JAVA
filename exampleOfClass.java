@@ -6,6 +6,8 @@ public class exampleOfClass {
                 return num1 + num2;
             }
         }
-        MathAdd addition = new MathAdd();//creates instance of the class i.e. objec
+        MathAdd addition = new MathAdd();//creates instance of the class i.e. object
+        addition.num1=10;
+        ad
     }
 }
