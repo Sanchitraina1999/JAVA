@@ -2,7 +2,7 @@ public class exampleOfClass {
     public static void main(String[] args){
         class student{
             String name;
-            
+            int marks;
         }
         MathAdd addition = new MathAdd();//creates instance of the class i.e. object
         addition.num1=10;
