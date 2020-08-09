@@ -27,18 +27,13 @@ int main()
         
          for (auto itr: mp) 
          { 
-             ans+=string(it.second,it.first);
-        }
-
-        for(auto it : mp)
-        {
-            ans += it.first;
+            ans+=string(itr.second,itr.first);
         }
         
         count = ans.length();
         res = ans;
         
-        for(auto i=0; i<=count; i++)
+        for(auto i=0; i<=ans.; i++)
         {
             res = ans;
             res.insert(i,p);
