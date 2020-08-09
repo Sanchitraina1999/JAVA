@@ -21,13 +21,8 @@ int main()
             mp[it]--;
         
         for (auto itr: mp)
-        while (it.sec
-    )
-        {
-            /* code */
-        }
-         
-            ans+=string(itr.second,itr.first);
+            while (it.second--)
+               ans+=it.first;
         string least=ans+p;
         for(auto i=0; i<ans.length(); i++)
         {
