@@ -25,9 +25,9 @@ int main()
             mp[it]--;
         }
         
-         for (auto itr = mp.begin(); itr != mp.end(); ++itr) 
+         for (auto itr: mp) 
          { 
-        cout<< itr->first << " " << itr->second << '\n'; 
+             ans+=string(it.second,it.first);
         }
 
         for(auto it : mp)
