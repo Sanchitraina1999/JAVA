@@ -1,6 +1,6 @@
 public class exampleOfClass {
     public static void main(String[] args){
-        class MathAdd{
+        class s{
             int num1,num2;
             public int add(){
                 return num1 + num2;
