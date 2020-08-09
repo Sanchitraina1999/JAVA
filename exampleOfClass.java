@@ -1,10 +1,8 @@
 public class exampleOfClass {
     public static void main(String[] args){
-        class s{
-            int num1,num2;
-            public int add(){
-                return num1 + num2;
-            }
+        class student{
+            String name;
+            
         }
         MathAdd addition = new MathAdd();//creates instance of the class i.e. object
         addition.num1=10;
