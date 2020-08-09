@@ -10,6 +10,7 @@ public class exampleOfClass {
         }
         student st=new student();
         st.name="Sanchit";
-        st.marks
+        st.marks=10;
+        st.display();
     }
 }
