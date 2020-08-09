@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
+    
     long long t,count;
     cin>>t;
-
     while(t--)
     {
         string s,p,ans,res;
