@@ -9,6 +9,7 @@ public class exampleOfClass {
             }
         }
         student st=new student();
-        st
+        st.name="Sanchit";
+        st.marks
     }
 }
