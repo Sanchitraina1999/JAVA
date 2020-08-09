@@ -37,7 +37,7 @@ int main()
             least=min(least,res);
         }
 
-        cout << *min_element(v1.begin(), v1.end())<<"\n";
+        cout << least<<"\n";
     }
 
     return 0;
