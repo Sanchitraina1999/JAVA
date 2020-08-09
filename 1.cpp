@@ -12,7 +12,6 @@ int main()
         cin>>s>>p;
 
         map<char,long long>mp;
-        vector<string>v1;
 
 
          for(auto it : s)
@@ -30,6 +29,7 @@ int main()
             ans+=string(itr.second,itr.first);
         }
         res = ans;
+        string least=ans+p;
         for(auto i=0; i<=ans.length(); i++)
         {
             res = ans;
