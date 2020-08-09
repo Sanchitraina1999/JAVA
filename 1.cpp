@@ -14,24 +14,22 @@ int main()
         cin>>s>>p;
 
         map<char,long long>mp;
-
-
          for(auto it : s)
-        {
             mp[it]++;
-        }
 
         for(auto it : p)
-        {
             mp[it]--;
-        }
         
-        for (auto itr: mp) 
-        { 
-            ans+=string(itr.second,itr.first);
+        for (auto itr: mp)
+        while (it.sec
+    )
+        {
+            /* code */
         }
+         
+            ans+=string(itr.second,itr.first);
         string least=ans+p;
-        for(auto i=0; i<=ans.length(); i++)
+        for(auto i=0; i<ans.length(); i++)
         {
             res = ans;
             res.insert(i,p);
