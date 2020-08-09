@@ -22,9 +22,9 @@ int main()
         
         for (auto itr: mp)
             while (it.second--)
-               ans+=it.first;
+                ans+=it.first;
         string least=ans+p;
-        for(auto i=0; i<ans.length(); i++)
+        for(long long i=0; i<ans.length(); i++)
         {
             res = ans;
             res.insert(i,p);
