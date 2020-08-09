@@ -24,11 +24,10 @@ int main()
             mp[it]--;
         }
         
-         for (auto itr: mp) 
-         { 
+        for (auto itr: mp) 
+        { 
             ans+=string(itr.second,itr.first);
         }
-        res = ans;
         string least=ans+p;
         for(auto i=0; i<=ans.length(); i++)
         {
