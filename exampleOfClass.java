@@ -4,7 +4,8 @@ public class exampleOfClass {
             String name;
             int marks;
             public void display(){
-                S
+                System.out.println("Name: " + name);
+                System.out.println("marks: "+ marks);
             }
         }
         MathAdd addition = new MathAdd();//creates instance of the class i.e. object
