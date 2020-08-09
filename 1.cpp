@@ -39,6 +39,5 @@ int main()
 
         cout << least<<"\n";
     }
-
     return 0;
 }
