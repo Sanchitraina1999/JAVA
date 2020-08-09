@@ -38,7 +38,7 @@ int main()
             res = '\0';
         }
 
-        cout << min_element(v1.begin(), v1.end());/
+        cout << *min_element(v1.begin(), v1.end())<<"\n";
     }
 
     return 0;
