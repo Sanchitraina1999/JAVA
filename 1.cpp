@@ -34,8 +34,7 @@ int main()
         {
             res = ans;
             res.insert(i,p);
-            v1.push_back(res);
-            res = '\0';
+            least=min(least,res);
         }
 
         cout << *min_element(v1.begin(), v1.end())<<"\n";
