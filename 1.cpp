@@ -29,23 +29,16 @@ int main()
          { 
             ans+=string(itr.second,itr.first);
         }
-        
-        count = ans.length();
         res = ans;
-        
-        for(auto i=0; i<=ans.; i++)
+        for(auto i=0; i<=ans.length(); i++)
         {
             res = ans;
             res.insert(i,p);
             v1.push_back(res);
             res = '\0';
         }
-        
 
-        for (auto i = v1.begin(); i != v1.end(); ++i) 
-        cout << *i << " "; 
-
-        //cout << min_element(v1.begin(), v1.end());/
+        cout << min_element(v1.begin(), v1.end());/
     }
 
     return 0;
