@@ -3,6 +3,9 @@ public class exampleOfClass {
         class student{
             String name;
             int marks;
+            public void display(){
+                S
+            }
         }
         MathAdd addition = new MathAdd();//creates instance of the class i.e. object
         addition.num1=10;
