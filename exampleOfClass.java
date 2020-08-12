@@ -8,12 +8,10 @@ public class exampleOfClass {
                 System.out.println("marks: "+ marks);
             }
             public void pass(){
-                System.out.println("Name: " + name);
-                System.out.println("marks: "+ marks);
+                System.out.println("Passed!");
             }
-            public void display(){
-                System.out.println("Name: " + name);
-                System.out.println("marks: "+ marks);
+            public void fail(){
+                System.out.println(" ");
             }
         }
         student st1=new student();
