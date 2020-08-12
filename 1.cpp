@@ -20,7 +20,7 @@ int main()
         for(auto it : p)
             mp[it]--;
         
-        for (auto itr: mp)
+        for (auto it: mp)
             while (it.second--)
                 ans+=it.first;
         string least=ans+p;
