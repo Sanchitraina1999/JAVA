@@ -8,7 +8,7 @@ public class exampleOfClass {
                 System.out.println("marks: "+ marks);
             }
         }
-        student st=new student();
+        student st1=new student();
         st.name="Sanchit";
         st.marks=10;
         st.display();
