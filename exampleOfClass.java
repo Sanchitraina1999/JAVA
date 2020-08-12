@@ -7,7 +7,7 @@ public class exampleOfClass {
                 System.out.println("Name: " + name);
             }
             public void pass(){
-                s
+                display();
                 System.out.println("Passed!");
             }
             public void fail(){
@@ -21,7 +21,7 @@ public class exampleOfClass {
             st1.pass();
         student st2=new student();
         st2.name="Ayush";
-        st2.marks=false;
+        st2.marks=true;
         if(st2.marks)
             st2.fail();
     }
