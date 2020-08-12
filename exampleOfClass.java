@@ -5,9 +5,9 @@ public class exampleOfClass {
             boolean marks;
             public void display(){
                 System.out.println("Name: " + name);
-                System.out.println("marks: "+ marks);
             }
             public void pass(){
+                s
                 System.out.println("Passed!");
             }
             public void fail(){
