@@ -11,7 +11,7 @@ public class exampleOfClass {
                 System.out.println("Passed!");
             }
             public void fail(){
-                System.out.println("");
+                System.out.println("Failed");
             }
         }
         student st1=new student();
