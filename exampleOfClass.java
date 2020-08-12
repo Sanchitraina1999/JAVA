@@ -11,10 +11,12 @@ public class exampleOfClass {
         student st1=new student();
         st1.name="Sanchit";
         st1.marks=true;
-        st1.display();
+        if(st1.marks)
+            st1.display();
         student st2=new student();
         st2.name="Ayush";
         st2.marks=false;
-        st2.display();
+        if(st2.marks)
+            st2.display();
     }
-}
+}   
