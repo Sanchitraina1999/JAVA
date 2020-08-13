@@ -1,5 +1,5 @@
 class Student{
-    private int h1,h2;
+    public int h1,h2;
     Student(Result res){
        h1=res.sem1;
        h2=res.sem2;
