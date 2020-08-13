@@ -6,4 +6,10 @@ class Student{
     }
 }
 
-class obj
+clas
+
+class objasparam{
+    public static void main(String[] args){
+
+    }
+}
