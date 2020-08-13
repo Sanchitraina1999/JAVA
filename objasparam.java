@@ -7,7 +7,7 @@ class Student{
 }
 
 class Result{
-    in
+    int sem1
 }
 
 class objasparam{
