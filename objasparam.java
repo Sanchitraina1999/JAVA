@@ -12,7 +12,9 @@ class Result{
 
 class objasparam{
     public static void main(String[] args){
-        Result
+        Result res = new Result();
+        res.sem1 =10;
+        res.sem2=20;
         Student st=new Student(res);
     }
 }
