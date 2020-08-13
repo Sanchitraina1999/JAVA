@@ -1,3 +1,6 @@
 class Student{
-    Result r
+    Result res;
+    Student(){
+        System.out.println("Result in sub1")
+    }
 }
