@@ -20,6 +20,6 @@ class objasparam{
         res.sem1 =10;
         res.sem2=20;
         Student st=new Student(res);
-        st.display();
+        System.out.println("h1: "+)
     }
 }
