@@ -6,8 +6,8 @@ class Student{
        h2=res.sem2;
     }
     void display(){
-        System.out.println("Result in sem1: "+h.sem1);
-        System.out.println("Result in sem2: "+res.sem2);
+        System.out.println("Result in sem1: "+h1);
+        System.out.println("Result in sem2: "+h2);
     }
 }
 
@@ -21,5 +21,6 @@ class objasparam{
         res.sem1 =10;
         res.sem2=20;
         Student st=new Student(res);
+        st.display();
     }
 }
