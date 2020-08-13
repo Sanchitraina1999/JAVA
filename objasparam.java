@@ -7,11 +7,12 @@ class Student{
 }
 
 class Result{
-    int sem1
+    int sem1,sem2;
 }
 
 class objasparam{
     public static void main(String[] args){
-
+        Student st;
+        
     }
 }
