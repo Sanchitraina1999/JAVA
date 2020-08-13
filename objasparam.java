@@ -1,10 +1,12 @@
 class Student{
     Result res;
+    int h1,h2;
     Student(Result res){
-        
+       h1=res.sem1;
+       h2=res.sem2;
     }
     void display(){
-        System.out.println("Result in sem1: "+res.sem1);
+        System.out.println("Result in sem1: "+h.sem1);
         System.out.println("Result in sem2: "+res.sem2);
     }
 }
