@@ -6,7 +6,9 @@ class Student{
     }
 }
 
-clas
+class Result{
+    
+}
 
 class objasparam{
     public static void main(String[] args){
