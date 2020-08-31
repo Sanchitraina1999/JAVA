@@ -10,6 +10,9 @@ public class server {
     public Server(int port){
         try{
             server = new ServerSocket(port);
+            System.out.println("Server started"); 
+            System.out.println("Waiting for a client ..."); 
+            
         }
     }
 }
