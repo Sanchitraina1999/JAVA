@@ -4,5 +4,6 @@ import java.net.*;
 import java.io.*;
 
 public class server {
-    private Soc
+    private Socket socket=null;
+    private DataOutputStream
 }
