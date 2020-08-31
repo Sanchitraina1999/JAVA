@@ -34,5 +34,9 @@ public class client{
         try{
             input.close();socket.close();output.close();
         }
+        catch(IOException i){
+            System.out.println(i);
+        }
     }
+    public 
 }
