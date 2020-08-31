@@ -3,6 +3,6 @@ package socketProgramming;
 import java.net.*;
 import java.io.*;
 
-public class client {
-    private 
+public class client{
+    private Socket socket =nu
 }
