@@ -4,5 +4,8 @@ import java.net.*;
 import java.io.*;
 
 public class client{
-    private Socket socket =nu
+    private Socket socket = null;
+    private DataInputStream input = null;
+    private DataOutputStream output = null;
+    
 }
