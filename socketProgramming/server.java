@@ -15,6 +15,3 @@ public class server {
             socket = server.accept();
             System.out.println("Client accepted");
             
-        }
-    }
-}
