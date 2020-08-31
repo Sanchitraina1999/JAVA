@@ -4,14 +4,16 @@ import java.net.*;
 import java.io.*;
 
 public class client{
-    //  initialize socket and input output streams 
+    // initialize socket and input output streams 
     private Socket socket = null;
     private DataInputStream input = null;
     private DataOutputStream output = null;
 
     public client(String address, int port) {
         try{
+            // establish a connection 
             socket = new Socket(address,port);
+            System.out.println("Connected");
             input = new DataInputStream(System.in);
             output = new DataOutputStream(socket.getOutputStream());
         }
