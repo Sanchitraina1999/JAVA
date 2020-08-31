@@ -11,7 +11,8 @@ public class client{
     public client(String address, int port) {
         try{
             socket = new Socket(address,port);
-            i
+            input = new DataInputStream(System.in);
+            output = new DataOutputStream();
         }
     }
 }
