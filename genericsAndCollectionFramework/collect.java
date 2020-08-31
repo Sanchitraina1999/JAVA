@@ -19,7 +19,7 @@ public class collect {
         System.out.println(l1);
 
         System.out.println("Hash Set");
-        List<Integer> h = new LinkedList<>();
+        List<String> h = new LinkedList<>();
         h.add("Rehan");
         h.add("Sanchit");
         h.add("Kaira");
@@ -27,7 +27,7 @@ public class collect {
         System.out.println(h);
 
         System.out.println("Linked Hash List");
-        List<Integer> h1 = new LinkedList<>();
+        List<String> list =  LinkedList<>();
         h1.add("Rehan");
         h1.add("Sanchit");
         h1.add("Sara");
