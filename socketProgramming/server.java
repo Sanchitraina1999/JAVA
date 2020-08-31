@@ -5,5 +5,5 @@ import java.io.*;
 
 public class server {
     private Socket socket=null;
-    private DataOutputStream
+    private ServerSocket server = 
 }
