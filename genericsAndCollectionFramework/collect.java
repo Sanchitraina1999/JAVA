@@ -27,14 +27,14 @@ public class collect {
         System.out.println(h);
 
         System.out.println("Linked Hash List");
-        List<String> list =  LinkedList<>();
+        List<String> list = new LinkedList<>();
         h1.add("Rehan");
         h1.add("Sanchit");
         h1.add("Sara");
         System.out.println(h1);
 
         System.out.println("TreeSet");
-        Set<Integer> ts = new TreeSet<>();
+        Set<String> ts = new TreeSet<>();
         ts.add("Rehan");
         ts.add("Sanchit");
         ts.add("Kaira");
