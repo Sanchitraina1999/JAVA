@@ -20,9 +20,12 @@ public class client{
         catch(IOException i){
             System.out.println(i);
         }
-        String line;
+        String line="";
         while (!line.equals("Over")) {
-            
+            try{
+                line = input.readLine();
+                
+            }
         }
     }
 }
