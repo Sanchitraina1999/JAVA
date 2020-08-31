@@ -8,5 +8,10 @@ public class client{
     private DataInputStream input = null;
     private DataOutputStream output = null;
 
-    public client(String address, int port) {}
+    public client(String address, int port) {
+        try{
+            socket = new Socket(address,port);
+            i
+        }
+    }
 }
