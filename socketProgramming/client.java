@@ -14,6 +14,9 @@ public class client{
             input = new DataInputStream(System.in);
             output = new DataOutputStream(socket.getOutputStream());
         }
-        catch
+        catch(UnknownHostException u){
+            System.out.println(u);
+        }
+        catch(IoException)
     }
 }
