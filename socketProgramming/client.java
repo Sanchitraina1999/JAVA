@@ -12,7 +12,8 @@ public class client{
         try{
             socket = new Socket(address,port);
             input = new DataInputStream(System.in);
-            output = new DataOutputStream();
+            output = new DataOutputStream(socket.getOutputStream());
         }
+        catch
     }
 }
