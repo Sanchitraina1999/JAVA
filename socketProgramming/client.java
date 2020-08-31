@@ -17,6 +17,9 @@ public class client{
         catch(UnknownHostException u){
             System.out.println(u);
         }
-        catch(IoException)
+        catch(IOException i){
+            System.out.println(i);
+        }
+        
     }
 }
