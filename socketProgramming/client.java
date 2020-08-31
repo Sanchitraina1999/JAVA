@@ -39,6 +39,6 @@ public class client{
         }
     }
     public static void main(String[] args) {
-        client c = new Client("127.0.0.");
+        client c = new client("127.0.0.1",3000);
     }
 }
