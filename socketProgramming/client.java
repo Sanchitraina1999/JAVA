@@ -13,7 +13,7 @@ public class client{
         try{
             // establish a connection 
             socket = new Socket(address,port);
-            System.out.println("Connected");
+            System.out.println("Client Connected");
             input = new DataInputStream(System.in);
             output = new DataOutputStream(socket.getOutputStream());
         }
@@ -24,6 +24,7 @@ public class client{
             System.out.println(i);
         }
         String line="";
+        // keep reading until "Over" is input 
         while (!line.equals("Over")) {
             try{
                 line = input.readLine();
