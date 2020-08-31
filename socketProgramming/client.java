@@ -34,7 +34,7 @@ public class client{
                 System.out.println(i);
             }
         }
-
+        // close the connection
         try{
             input.close();socket.close();output.close();
         }
