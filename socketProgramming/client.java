@@ -27,8 +27,12 @@ public class client{
                 output.writeUTF(line);
             }
             catch(IOException i){
-                
+                System.out.println(i);
             }
+        }
+
+        try{
+            input.close();socket.close();output.close();
         }
     }
 }
