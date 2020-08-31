@@ -26,6 +26,9 @@ public class client{
                 line = input.readLine();
                 output.writeUTF(line);
             }
+            catch(IOException i){
+                
+            }
         }
     }
 }
