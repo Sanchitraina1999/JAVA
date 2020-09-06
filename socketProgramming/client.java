@@ -27,7 +27,7 @@ public class client{
         // keep reading until "Over" is input 
         while (!line.equals("Over")) {
             try{
-                line = input.readLine();
+                line = input.readUTF();
                 output.writeUTF(line);
             }
             catch(IOException i){
