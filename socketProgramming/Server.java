@@ -1,53 +1,48 @@
-package socketProgramming;
-
+// File Name GreetingServer.java
 import java.net.*;
 import java.io.*;
 
-public class Server {
-    private Socket socket=null;
-    private ServerSocket server = null;
-    private DataInputStream in = null;
-    public Server(int port){
-        try{
-            server = new ServerSocket(port);
-            System.out.println("Server started"); 
-            System.out.println("Waiting for a client ..."); 
-            socket = server.accept();
-            System.out.println("Client accepted");
-            // takes input from the client socket 
-            in = new DataInputStream( 
-                new BufferedInputStream(socket.getInputStream())); 
-  
-            String line = ""; 
-  
-            // reads message from client until "Over" is sent 
-            while (!line.equals("Over")) 
-            { 
-                try
-                { 
-                    line = in.readUTF(); 
-                    System.out.println(line); 
-  
-                } 
-                catch(IOException i) 
-                { 
-                    System.out.println(i); 
-                } 
-            } 
-            System.out.println("Closing connection"); 
-  
-            // close connection 
-            socket.close(); 
-            in.close(); 
-        } 
-        catch(IOException i) 
-        { 
-            System.out.println(i); 
-        } 
-    } 
-  
-    public static void main(String args[]) 
-    { 
-        Server s = new Server(5000); 
-    } 
+public class Server extends Thread {
+   private ServerSocket serverSocket;
+   
+   public Server(int port) throws IOException {
+      serverSocket = new ServerSocket(port);
+      serverSocket.setSoTimeout(10000);
+   }
+
+   public void run() {
+      while(true) {
+         try {
+            System.out.println("Waiting for client on port " + 
+               serverSocket.getLocalPort() + "...");
+            Socket server = serverSocket.accept();
+            
+            System.out.println("Just connected to " + server.getRemoteSocketAddress());
+            DataInputStream in = new DataInputStream(server.getInputStream());
+            
+            System.out.println(in.readUTF());
+            DataOutputStream out = new DataOutputStream(server.getOutputStream());
+            out.writeUTF("Thank you for connecting to " + server.getLocalSocketAddress()
+               + "\nGoodbye!");
+            server.close();
+            
+         } catch (SocketTimeoutException s) {
+            System.out.println("Socket timed out!");
+            break;
+         } catch (IOException e) {
+            e.printStackTrace();
+            break;
+         }
+      }
+   }
+   
+   public static void main(String [] args) {
+      int port = Integer.parseInt(args[0]);
+      try {
+         Thread t = new Server(port);
+         t.start();
+      } catch (IOException e) {
+         e.printStackTrace();
+      }
+   }
 }
