@@ -12,6 +12,7 @@ class abc extends JFrame implements ActionListener{
 
     JLabel l1,l2,choice,res;
     JTextField t1,t2;
+    JButton btn;
     abc(){
         setLayout(new FlowLayout());
         l1= new JLabel("Number 1");
@@ -23,6 +24,7 @@ class abc extends JFrame implements ActionListener{
         add(t1);
         add(l2);
         add(t2);
+        add(choice);
 
         setVisible(true);
         setSize(400,800);
