@@ -11,7 +11,7 @@ public class calculator {
 class abc extends JFrame implements ActionListener {
 
     JLabel l1, l2, choice, res, l3;
-    JTextField t1, t2;
+    JTextField t1, t2,t3;
     JButton btn;
 
     abc() {
@@ -19,6 +19,7 @@ class abc extends JFrame implements ActionListener {
         l1 = new JLabel("Number 1");
         l2 = new JLabel("Number 2");
         choice = new JLabel("1. ADD\n 2. SUBTRACT\n 3.MULTIPLY\n 4.DIVIDE\n");
+        
         t1 = new JTextField(20);
         t2 = new JTextField(20);
         l3 = new JLabel("Result will be displayed here");
