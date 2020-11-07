@@ -9,6 +9,8 @@ public class calculator{
 
 class abc extends JFrame{
 
+    JLabel 
+
     abc(){
 
     }
