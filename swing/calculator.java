@@ -20,7 +20,7 @@ class abc extends JFrame implements ActionListener{
         choice = new JLabel("1. ADD\n 2. SUBTRACT\n 3.MULTIPLY\n 4.DIVIDE\n");
         t1= new JTextField(20);
         t2= new JTextField(20);
-        l3= new 
+        l3= new JLabel("Result will be displayed here");
         add(l1);
         add(t1);
         add(l2);
