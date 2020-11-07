@@ -16,6 +16,7 @@ class abc extends JFrame implements ActionListener{
         setLayout(new FlowLayout());
         l1= new JLabel("Number 1");
         l2= new JLabel("Number 2");
+        choice = new JLabel("1. ADD 2. S")
         t1= new JTextField(20);
         t2= new JTextField(20);
         add(l1);
@@ -30,6 +31,8 @@ class abc extends JFrame implements ActionListener{
     }
 
     public void actionPerformed(ActionListener){
-        int a = Integer.parseInt(t1.get)
+        int a = Integer.parseInt(t1.getText());
+        int b = Integer.parseInt(t2.getText());
+        int  res = Integer.parseInt()
     }
 }
