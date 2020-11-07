@@ -28,7 +28,7 @@ class abc extends JFrame implements ActionListener {
         btn1 = new JButton("ADD");
         btn2 = new JButton("SUBTRACT");
         btn3 = new JButton("MULTIPLY");
-        btn4 = new JButton("ADD");
+        btn4 = new JButton("DIVIDE");
 
         add(l1);
         add(t1);
@@ -36,7 +36,7 @@ class abc extends JFrame implements ActionListener {
         add(t2);
         add(choice);
         add(t3);
-        add(btn);
+        add(btn1);add(btn2);add(btn1);add(btn1);
         add(l3);
 
         btn.addActionListener(this);
