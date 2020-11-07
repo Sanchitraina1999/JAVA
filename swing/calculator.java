@@ -24,7 +24,12 @@ class abc extends JFrame implements ActionListener {
         t2 = new JTextField(20);
         t3 = new JTextField(20);
         l3 = new JLabel("Result will be displayed here");
-        btn = new JButton("Get Result");
+
+        btn1 = new JButton("ADD");
+        btn2 = new JButton("SUBTRACT");
+        btn3 = new JButton("MULTIPLY");
+        btn4 = new JButton("ADD");
+
         add(l1);
         add(t1);
         add(l2);
