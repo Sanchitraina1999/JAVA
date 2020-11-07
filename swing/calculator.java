@@ -28,7 +28,7 @@ class abc extends JFrame implements ActionListener{
         add(choice);
 
         setVisible(true);
-        setSize(400,800);
+        setSize(300,800);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
