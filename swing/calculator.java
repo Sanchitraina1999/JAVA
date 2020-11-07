@@ -16,7 +16,7 @@ class abc extends JFrame implements ActionListener{
         setLayout(new FlowLayout());
         l1= new JLabel("Number 1");
         l2= new JLabel("Number 2");
-        choice = new JLabel("1. ADD 2. S")
+        choice = new JLabel("1. ADD\n 2. SUBTRACT\n 3.MULTIPLY\n 4.DIVIDE\n");
         t1= new JTextField(20);
         t2= new JTextField(20);
         add(l1);
