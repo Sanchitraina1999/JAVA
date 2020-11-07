@@ -10,7 +10,7 @@ public class calculator{
 
 class abc extends JFrame implements ActionListener{
 
-    JLabel l1,l2,choice,res;
+    JLabel l1,l2,choice,res,l3;
     JTextField t1,t2;
     JButton btn;
     abc(){
@@ -20,6 +20,7 @@ class abc extends JFrame implements ActionListener{
         choice = new JLabel("1. ADD\n 2. SUBTRACT\n 3.MULTIPLY\n 4.DIVIDE\n");
         t1= new JTextField(20);
         t2= new JTextField(20);
+        l3= new 
         add(l1);
         add(t1);
         add(l2);
@@ -40,14 +41,14 @@ class abc extends JFrame implements ActionListener{
                 l3.setText(a+b);
                 break;
             case 2:
-            l3.setText(a+b);
-            break;
-            case :
-            l3.setText(a+b);
-            break;
-            case 1:
-            l3.setText(a+b);
-            break;
+                l3.setText(a-b);
+                break;
+            case 3:
+                l3.setText(a*b);
+                break;
+            case 4:
+                l3.setText(a/b);
+                break;
         }
     }
 }
