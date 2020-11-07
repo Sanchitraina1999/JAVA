@@ -13,7 +13,7 @@ class abc extends JFrame implements ActionListener {
     JTextField jt1, jt2;
     JButton b;
 
-    public abc() {
+    abc() {
         setLayout(new FlowLayout());
 
         l1 = new JLabel("Number 1");
