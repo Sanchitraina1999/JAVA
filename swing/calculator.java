@@ -14,9 +14,12 @@ class abc extends JFrame{
     abc(){
         l1= new JLabel("Number 1");
         l2= new JLabel("Number 2");
-
+        t1= new JTextField(20);
+        t2= new JTextField(20);
         add(l1);
-        add()
+        add(t1);
+        add(l2);
+        add(t2);
     }
 
     publi
