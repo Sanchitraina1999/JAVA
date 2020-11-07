@@ -32,7 +32,7 @@ class abc extends JFrame implements ActionListener{
 
     }
 
-    public void actionPerformed(ActionListener){
+    public void actionPerformed(ActionEvent e){
         int a = Integer.parseInt(t1.getText());
         int b = Integer.parseInt(t2.getText());
         switch(choice.getText()){
