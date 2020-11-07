@@ -10,7 +10,7 @@ public class calculator{
 
 class abc extends JFrame implements ActionListener{
 
-    JLabel l1,l2,choice;
+    JLabel l1,l2,choice,res;
     JTextField t1,t2;
     abc(){
         setLayout(new FlowLayout());
@@ -33,6 +33,8 @@ class abc extends JFrame implements ActionListener{
     public void actionPerformed(ActionListener){
         int a = Integer.parseInt(t1.getText());
         int b = Integer.parseInt(t2.getText());
-        int  res = Integer.parseInt()
+        switch(choice.getText()){
+
+        }
     }
 }
