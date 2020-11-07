@@ -32,15 +32,16 @@ class abc extends JFrame implements ActionListener {
         add(t1);
         add(l2);
         add(t2);
-        add(choice);
-        add(t3);
         add(btn1);
         add(btn2);
         add(btn3);
         add(btn4);
         add(l3);
 
-        btn.addActionListener(this);
+        btn1.addActionListener(this);
+        btn2.addActionListener(this);
+        btn3.addActionListener(this);
+        btn4.addActionListener(this);
 
         setVisible(true);
         setSize(300, 800);
