@@ -7,4 +7,11 @@ public class calculator{
     }
 }
 
-p
+class abc extends JFrame{
+
+    abc(){
+
+    }
+
+    publi
+}
