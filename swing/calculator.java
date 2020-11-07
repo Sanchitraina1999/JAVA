@@ -12,7 +12,7 @@ class abc extends JFrame implements ActionListener {
 
     JLabel l1, l2, l3;
     JTextField t1, t2;
-    JButton btn1,btn2,btn3,btn4;
+    JButton btn1, btn2, btn3, btn4;
 
     abc() {
         setLayout(new FlowLayout());
@@ -34,7 +34,10 @@ class abc extends JFrame implements ActionListener {
         add(t2);
         add(choice);
         add(t3);
-        add(btn1);add(btn2);add(btn3);add(btn4);
+        add(btn1);
+        add(btn2);
+        add(btn3);
+        add(btn4);
         add(l3);
 
         btn.addActionListener(this);
@@ -48,25 +51,14 @@ class abc extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         int a = Integer.parseInt(t1.getText());
         int b = Integer.parseInt(t2.getText());
-        if (e.getSource()==btn1) {
-                l3.setText("" + (a + b));
-        }
-        else if(e.getSource()==btn2) {
-
-        }
-        else if(e.getSource()==btn3){
-
-        }
-        else if(e.getSource()==btn4)
-            case 2:
-                l3.setText("" + (a - b));
-                break;
-            case 3:
-                l3.setText("" + a * b);
-                break;
-            case 4:
-                l3.setText("" + a / b);
-                break;
+        if (e.getSource() == btn1) {
+            l3.setText("" + (a + b));
+        } else if (e.getSource() == btn2) {
+            l3.setText("" + (a - b));
+        } else if (e.getSource() == btn3) {
+            l3.setText("" + a * b);
+        } else if (e.getSource() == btn4) {
+            l3.setText("" + a / b);
         }
     }
 }
