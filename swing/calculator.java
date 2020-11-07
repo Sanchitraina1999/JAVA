@@ -21,11 +21,15 @@ class abc extends JFrame implements ActionListener{
         t1= new JTextField(20);
         t2= new JTextField(20);
         l3= new JLabel("Result will be displayed here");
+        btn
         add(l1);
         add(t1);
         add(l2);
         add(t2);
         add(choice);
+        add(btn);
+
+        btn.addActionListener(this);
 
         setVisible(true);
         setSize(300,800);
