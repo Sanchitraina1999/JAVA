@@ -48,7 +48,7 @@ class abc extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         int a = Integer.parseInt(t1.getText());
         int b = Integer.parseInt(t2.getText());
-        switch (E) {
+        if (e.getSource()==b) {
             case 1:
                 l3.setText("" + (a + b));
                 break;
