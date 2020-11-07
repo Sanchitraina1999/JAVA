@@ -47,7 +47,7 @@ class abc extends JFrame implements ActionListener {
         int b = Integer.parseInt(t2.getText());
         switch (Integer.parseInt(t3.getText())) {
             case 1:
-                l3.setText("" + a + b);
+                l3.setText("" + (a + b));
                 break;
             case 2:
                 l3.setText("" + (a - b));
