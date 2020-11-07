@@ -12,7 +12,7 @@ class abc extends JFrame implements ActionListener {
 
     JLabel l1, l2, choice, l3;
     JTextField t1, t2,t3;
-    JButton btn;
+    JButton btn1,btn2,btn3,btn4;
 
     abc() {
         setLayout(new FlowLayout());
