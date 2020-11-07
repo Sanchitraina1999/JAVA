@@ -8,7 +8,7 @@ public class calculator{
     }
 }
 
-class abc extends JFrame{
+class abc extends JFrame implements ActionListener{
 
     JLabel l1,l2,choice;
     JTextField t1,t2;
@@ -22,6 +22,11 @@ class abc extends JFrame{
         add(t1);
         add(l2);
         add(t2);
+
+        setVisible(true);
+        setSize(400,800);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
     }
 
     publi
