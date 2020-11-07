@@ -10,19 +10,17 @@ public class calculator {
 
 class abc extends JFrame implements ActionListener {
 
-    JLabel l1, l2, choice, l3;
-    JTextField t1, t2,t3;
+    JLabel l1, l2, l3;
+    JTextField t1, t2;
     JButton btn1,btn2,btn3,btn4;
 
     abc() {
         setLayout(new FlowLayout());
         l1 = new JLabel("Number 1");
         l2 = new JLabel("Number 2");
-        choice = new JLabel("1. ADD\n 2. SUBTRACT\n 3.MULTIPLY\n 4.DIVIDE\n");
 
         t1 = new JTextField(20);
         t2 = new JTextField(20);
-        t3 = new JTextField(20);
         l3 = new JLabel("Result will be displayed here");
 
         btn1 = new JButton("ADD");
@@ -36,7 +34,7 @@ class abc extends JFrame implements ActionListener {
         add(t2);
         add(choice);
         add(t3);
-        add(btn1);add(btn2);add(btn1);add(btn1);
+        add(btn1);add(btn2);add(btn3);add(btn4);
         add(l3);
 
         btn.addActionListener(this);
@@ -50,7 +48,7 @@ class abc extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         int a = Integer.parseInt(t1.getText());
         int b = Integer.parseInt(t2.getText());
-        switch (Integer.parseInt(t3.getText())) {
+        switch (E) {
             case 1:
                 l3.setText("" + (a + b));
                 break;
