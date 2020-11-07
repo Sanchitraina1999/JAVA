@@ -29,5 +29,7 @@ class abc extends JFrame implements ActionListener{
 
     }
 
-    publi
+    public void actionPerformed(ActionListener){
+        int a = Integer.parseInt(t1.get)
+    }
 }
