@@ -3,9 +3,9 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Bank ac = new Bank();
+        Scanner sc = new Scanner(System.in);
         int choice;
         while (true) {
-            Scanner sc = new Scanner(System.in);
             System.out.println("1. get balance");
             System.out.println("2. add funds");
             System.out.println("3. withdraw funds");
