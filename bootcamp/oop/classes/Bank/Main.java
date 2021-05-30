@@ -5,7 +5,8 @@ public class Main {
         Bank ac = new Bank();
         Scanner sc = new Scanner(System.in);
         int choice;
-        while (true) {
+        Boolean loop=true;
+        while (loop) {
             System.out.println("1. get balance");
             System.out.println("2. add funds");
             System.out.println("3. withdraw funds");
@@ -29,6 +30,7 @@ public class Main {
                     ac.withdrawFunds(debt);
                     break;
                 case 4:
+                    loop=false;
                     break;
             }
         }
