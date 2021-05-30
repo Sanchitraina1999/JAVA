@@ -9,6 +9,7 @@ public class Main {
             System.out.println("1. get balance");
             System.out.println("2. add funds");
             System.out.println("3. withdraw funds");
+            System.out.println("4. Exit");
             choice = sc.nextInt();
             sc.nextLine();
             switch (choice) {
@@ -26,6 +27,8 @@ public class Main {
                     int debt = sc.nextInt();
                     sc.nextLine();
                     ac.withdrawFunds(debt);
+                    break;
+                case 4:
                     break;
             }
         }
