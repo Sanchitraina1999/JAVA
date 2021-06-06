@@ -173,7 +173,7 @@ int32_t main()
             vector<ll>x;
             forn(j,i,n){
                 x.pb(a[j]);
-                maxx=max(maxx,a[j]*occurrences[x]);
+                maxx=max(maxx,(accumulate(all(x),0ll))*occurrences[x]);
             }
         }
         cout<<maxx<<"\n";
