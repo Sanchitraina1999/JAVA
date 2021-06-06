@@ -185,10 +185,11 @@ int32_t main()
                     maxx=max(maxx,a[j]*(j+1));
                 }
                 else{
-                    maxx=max(maxx,(sum[j]-sum[i-1])*);
+                    maxx=max(maxx,(sum[j]-sum[i-1])*(j-i+1));
                 }
             }
         }
+        cout<<maxx<<"\n";
     }
     return 0;
 }
