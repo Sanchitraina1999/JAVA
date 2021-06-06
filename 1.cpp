@@ -169,6 +169,11 @@ int32_t main()
             }
         }
         for(auto i: occurrences){
+            cout<<"[";
+            for(auto j: i.f){
+                cout<<j<<",";
+            }
+            cout<<"]-> ";
             cout<<i.s<<"\n";
         }
     }
