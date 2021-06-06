@@ -14,7 +14,7 @@ int main() {
         for(ll i=0;i<n;i++){
             vector<ll>v;
             for(ll j=i;j<n;j++){
-                v.pb(a[j]);
+                v.push_back(a[j]);
                 m[v]++;
             }
         }
@@ -23,9 +23,9 @@ int main() {
             vector<ll>v;
             ll su=0;
             for(ll j=i;j<n;j++){
-                v.pb(a[j]);
+                v.push_back(a[j]);
                 su+=v[v.size()-1];
-                ans=max(ans,su*m[x]);
+                ans=max(ans,su*m[v]);
             }
         }
         cout<<ans<<"\n";
