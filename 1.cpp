@@ -156,10 +156,13 @@ int32_t main()
     FAST;
     TC
     {
+        ll n;
+        
         map<vector<ll>,ll> occurrences;
         forn(i,0,n){
+            vector<ll>x;
             forn(j,i,n){
-                
+                x.pb()
             }
         }
     }
