@@ -168,14 +168,15 @@ int32_t main()
                 occurrences[x]++;
             }
         }
-        for(auto i: occurrences){
-            cout<<"[";
-            for(auto j: i.f){
-                cout<<j<<",";
-            }
-            cout<<"]-> ";
-            cout<<i.s<<"\n";
-        }
+        // for(auto i: occurrences){
+        //     cout<<"[";
+        //     for(auto j: i.f){
+        //         cout<<j<<",";
+        //     }
+        //     cout<<"]-> ";
+        //     cout<<i.s<<"\n";
+        // }
+        
     }
     return 0;
 }
