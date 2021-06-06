@@ -158,8 +158,9 @@ int32_t main()
     {
         ll n;
         cin>>n;
-        ll a[n];
+        ll a[n],sum[n];
         forn(i,0,n)cin>>a[i];
+        sum[0]=a[0];
         map<vector<ll>,ll> occurrences;
         forn(i,0,n){
             vector<ll>x;
@@ -176,7 +177,7 @@ int32_t main()
         //     cout<<"]-> ";
         //     cout<<i.s<<"\n";
         // }
-        
+
     }
     return 0;
 }
