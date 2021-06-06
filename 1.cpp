@@ -165,8 +165,11 @@ int32_t main()
             vector<ll>x;
             forn(j,i,n){
                 x.pb(a[j]);
-                
+                occurrences[x]++;
             }
+        }
+        for(auto i: occurrences){
+            cout<<i.s<<"\n";
         }
     }
     return 0;
