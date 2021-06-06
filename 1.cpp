@@ -181,11 +181,11 @@ int32_t main()
         ll maxx=INT_MIN;
         forn(i,0,n){
             forn(j,i,n){
-                if(==j){
-                    maxx=max(maxx,a[j]);
+                if(i==0){
+                    maxx=max(maxx,a[j]*(j+1));
                 }
                 else{
-                    maxx=max(maxx,)
+                    maxx=max(maxx,sum[j])
                 }
             }
         }
