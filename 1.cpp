@@ -183,10 +183,10 @@ int32_t main()
             forn(j,i,n){
                 x.pb(a[j]);
                 if(i==0){
-                    maxx=max(maxx,a[j]*));
+                    maxx=max(maxx,a[j]*occurrences[x]);
                 }
                 else{
-                    maxx=max(maxx,(accumulate(all(x),0ll))*(j-i+1));
+                    maxx=max(maxx,(accumulate(all(x),0ll))*occurrences[x]);
                 }
             }
         }
