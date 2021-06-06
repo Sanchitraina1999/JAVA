@@ -156,7 +156,12 @@ int32_t main()
     FAST;
     TC
     {
-        
+        map<vector<ll>,ll> occurrences;
+        forn(i,0,n){
+            forn(j,i,n){
+                
+            }
+        }
     }
     return 0;
 }
