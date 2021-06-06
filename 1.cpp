@@ -164,7 +164,8 @@ int32_t main()
         forn(i,0,n){
             vector<ll>x;
             forn(j,i,n){
-                x.pb();
+                x.pb(a[j]);
+                
             }
         }
     }
