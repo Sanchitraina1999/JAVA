@@ -177,7 +177,7 @@ int32_t main()
         //     cout<<"]-> ";
         //     cout<<i.s<<"\n";
         // }
-
+        forn(i,1,n)sum[i]=sum[i-1]+a[i];
     }
     return 0;
 }
