@@ -185,7 +185,7 @@ int32_t main()
                     maxx=max(maxx,a[j]*(j+1));
                 }
                 else{
-                    maxx=max(maxx,sum[j])
+                    maxx=max(maxx,(sum[j]-sum[i-1])*);
                 }
             }
         }
