@@ -178,6 +178,14 @@ int32_t main()
         //     cout<<i.s<<"\n";
         // }
         forn(i,1,n)sum[i]=sum[i-1]+a[i];
+        ll maxx=INT_MIN;
+        forn(i,0,n){
+            forn(j,i,n){
+                if(i==j){
+
+                }
+            }
+        }
     }
     return 0;
 }
