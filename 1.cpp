@@ -158,7 +158,7 @@ int32_t main()
     {
         ll n;
         cin>>n;
-        ll a[n],sum[n];
+        ll a[n];
         forn(i,0,n)cin>>a[i];
         sum[0]=a[0];
         map<vector<ll>,ll> occurrences;
@@ -177,17 +177,16 @@ int32_t main()
         //     cout<<"]-> ";
         //     cout<<i.s<<"\n";
         // }
-        forn(i,1,n)sum[i]=sum[i-1]+a[i];
         ll maxx=INT_MIN;
         forn(i,0,n){
             vector<ll>x;
             forn(j,i,n){
                 x.pb(a[j]);
                 if(i==0){
-                    maxx=max(maxx,a[j]*(j+1));
+                    maxx=max(maxx,a[j]*));
                 }
                 else{
-                    maxx=max(maxx,(sum[j]-sum[i-1])*(j-i+1));
+                    maxx=max(maxx,(accumulate(all(x),0ll))*(j-i+1));
                 }
             }
         }
