@@ -157,12 +157,14 @@ int32_t main()
     TC
     {
         ll n;
-        
+        cin>>n;
+        ll a[n];
+        forn(i,0,n)cin>>a[i];
         map<vector<ll>,ll> occurrences;
         forn(i,0,n){
             vector<ll>x;
             forn(j,i,n){
-                x.pb()
+                x.pb();
             }
         }
     }
