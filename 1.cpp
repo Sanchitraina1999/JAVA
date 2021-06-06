@@ -160,7 +160,6 @@ int32_t main()
         cin>>n;
         ll a[n];
         forn(i,0,n)cin>>a[i];
-        sum[0]=a[0];
         map<vector<ll>,ll> occurrences;
         forn(i,0,n){
             vector<ll>x;
@@ -169,14 +168,6 @@ int32_t main()
                 occurrences[x]++;
             }
         }
-        // for(auto i: occurrences){
-        //     cout<<"[";
-        //     for(auto j: i.f){
-        //         cout<<j<<",";
-        //     }
-        //     cout<<"]-> ";
-        //     cout<<i.s<<"\n";
-        // }
         ll maxx=INT_MIN;
         forn(i,0,n){
             vector<ll>x;
