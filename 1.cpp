@@ -180,8 +180,10 @@ int32_t main()
         forn(i,1,n)sum[i]=sum[i-1]+a[i];
         ll maxx=INT_MIN;
         forn(i,0,n){
+            vector<ll>x;
             forn(j,i,n){
-                if(i==0){
+                x.pb(a[j]);
+                
                     maxx=max(maxx,a[j]*(j+1));
                 }
                 else{
