@@ -154,16 +154,9 @@ void power(ll A[][N], ll dim, ll n)
 int32_t main()
 {
     FAST;
-#ifndef ONLINE_JUDGE
-    freopen("io/input.txt", "r", stdin);
-    freopen("io/output.txt", "w", stdout);
-#endif
     TC
     {
-        ll n, maxx = INT_MIN, minn = INT_MAX, sum = 0, x;
-        cin >> n;
-        ll a[n];
-        forn(i, 0, n) cin >> a[i];
+        
     }
     return 0;
 }
